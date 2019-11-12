@@ -1,5 +1,6 @@
-#07 머신 러닝(Machine Learning) 개요
-#####참고 : https://wikidocs.net/21669
+07 머신 러닝(Machine Learning) 개요
+
+참고 : https://wikidocs.net/21669
 
 1. 선형 회귀
     - 엄청난 데이터량을 한꺼번에 계산할 수 없기 때문에 경사하강법과 같은 방법을 사용
