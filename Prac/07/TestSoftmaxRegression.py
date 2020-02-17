@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 data = pd.read_csv('iris.csv', encoding='latin1')
 # 예를 들어윈도우 바탕화면에서 작업한 저자의 경우에는
-# data = pd.read_csv(r'C:\Users\USER\Desktop\iris.csv',encoding='latin1')
+# 0_data = pd.read_csv(r'C:\Users\USER\Desktop\iris.csv',encoding='latin1')
 
 print(len(data)) # 총 샘플의 개수 출력
 print(data[:5]) # 샘플 중 5개 출력
@@ -10,7 +10,7 @@ print("품종 종류:", data["Species"].unique(), sep="\n")
 # 중복을 허용하지 않고, 있는 데이터의 모든 종류를 출력
 
 import seaborn as sns
-#del data['Id'] # 인덱스 열 삭제
+#del 0_data['Id'] # 인덱스 열 삭제
 sns.set(style="ticks", color_codes=True)
 g = sns.pairplot(data, hue="Species", palette="husl")
 plt.show()
